@@ -137,11 +137,11 @@ void file_command(int argc, char *argv[])
             write_file_cmd(filename, mode, content);
             break;
 
-        case 'l':
-            for (int i=0; i < main_vfs.count;) {
-                vfs_file_get_metadata_min(i, &main_vfs);
-                i++;
-            }
+        // case 'l':
+        //     for (int i=0; i < main_vfs.count;) {
+        //         vfs_file_get_metadata_min(i, &main_vfs);
+        //         i++;
+        //     }
 
             break;
         case 'i':
